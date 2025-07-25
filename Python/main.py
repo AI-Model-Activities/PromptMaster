@@ -30,8 +30,8 @@ class Constants:
     """アプリケーション全体で使用する定数を一元管理します。"""
 
     # --- File Paths ---
-    CONFIG_FILE = Path("config.json")
-    PROMPTS_FILE = Path("saved_prompts.json")
+    CONFIG_FILE = Path("../config.json")
+    PROMPTS_FILE = Path("../saved_prompts.json")
 
     # --- App Info ---
     APP_TITLE = "Prompt Master"
