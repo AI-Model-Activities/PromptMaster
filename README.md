@@ -2,6 +2,8 @@
 
 Prompt Masterは、GoogleのGemini APIを活用してAIプロンプトを効率的に管理・強化するための、Python製デスクトップアプリケーションです。直感的なUIを通じて、プロンプトエンジニアリングのワークフローを加速させます。
 
+![image](example.png)
+
 ## Features
 
 * **プロンプト強化:** ベースとなるプロンプトを入力すると、Gemini APIがより構造的で高性能なプロンプトを生成します。
@@ -50,7 +52,7 @@ Prompt Masterは、GoogleのGemini APIを活用してAIプロンプトを効率�
 1. 以下のコマンドでアプリケーションを起動します。
 
     ```bash
-    python main.py
+    python Python/main.py
     ```
 
 2. 初回起動時に、`config.json` と `saved_prompts.json` がスクリプトと同じディレクトリに自動生成されます。
