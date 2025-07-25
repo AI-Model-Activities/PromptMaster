@@ -52,10 +52,10 @@ Prompt Masterは、GoogleのGemini APIを活用してAIプロンプトを効率�
 1. 以下のコマンドでアプリケーションを起動します。
 
     ```bash
-    python Python/main.py
+    python PromptMaster/main.py
     ```
 
-2. 初回起動時に、`config.json` と `saved_prompts.json` がスクリプトと同じディレクトリに自動生成されます。
+2. 初回起動時に、`config.json` と `saved_prompts.json` がメインディレクトリに自動生成されます。
 
 3. 左下の入力欄に、お持ちのGoogle APIキーを入力してください。キーは`config.json`に保存されます。
 

@@ -1,11 +1,4 @@
-# prompt_master_refactored_v1.0.py
-
-"""
-Prompt Master: A desktop application for prompt engineering.
-
-This application provides a modern and intuitive UI to help users refine
-and manage their AI prompts efficiently.
-"""
+# Prompt Master: A desktop application for prompt engineering.
 
 # ==============================================================================
 # 1. ライブラリのインポート (Library Imports)
@@ -30,8 +23,11 @@ class Constants:
     """アプリケーション全体で使用する定数を一元管理します。"""
 
     # --- File Paths ---
-    CONFIG_FILE = Path("../config.json")
-    PROMPTS_FILE = Path("../saved_prompts.json")
+    SCRIPT_DIR = Path(__file__).resolve().parent
+    BASE_DIR = SCRIPT_DIR.parent
+
+    CONFIG_FILE = BASE_DIR / "config.json"
+    PROMPTS_FILE = BASE_DIR / "saved_prompts.json"
 
     # --- App Info ---
     APP_TITLE = "Prompt Master"
